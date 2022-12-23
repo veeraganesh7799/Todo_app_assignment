@@ -1,0 +1,50 @@
+.todo-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    width: 100%;
+    border: 1px solid rgb(189, 185, 185);
+    height: 35px;
+    margin-top: 18px;
+    border-radius: 5px;
+    box-shadow: 5px 2px 5px rgb(179, 173, 173);
+}
+
+.crud-opertions{
+    display: flex;
+    align-items: center;
+}
+.name{
+    font-family: 'Roboto';
+    color: black;
+    margin-left: 10px;
+}
+.todo-item-completed{
+    color: gray;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.complete-btn{
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+    color: #fff;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.completed-btn{
+    background-color: green;
+    border: 2px solid green;
+    color: #fff;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.delete-btn{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.delete-icon{
+    cursor: pointer;
+}
