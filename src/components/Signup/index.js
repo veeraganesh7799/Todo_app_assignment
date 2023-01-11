@@ -37,14 +37,22 @@ const Signup = () => {
       <div className='signup-container'> 
       <h1 className='signu-up-heading'>Signup</h1>
       <form className='form-container' onSubmit={onSubmitHandler}>
+        <div className='input-container'>
         <label htmlFor='email' className='label'>Email</label>
         <input type='email' id='email' placeholder='Enter Email' className='input-box' value={email} onChange={(e)=>setEmail(e.target.value)}/>
+        </div>
+        <div className='input-container'>
         <label htmlFor='dateOfBirth' placeholder='Enter Date of Birth' className='label'>Date of Birth</label>
         <input type='date' id='dateOfBirth' className='input-box' value={dateOfBirth} onChange={(e)=>setDateOfBirth(e.target.value)}/>
+        </div>
+        <div className='input-container'>
         <label htmlFor='phoneNumber' className='label'>Phone number</label>
         <input type='text' id='phoneNumber' placeholder='Enter Phone number' className='input-box' value={phoneNumber} onChange={(e)=>setPhoneNumber(e.target.value)}/>
+        </div>
+        <div className='input-container'>
         <label htmlFor='address' className='label' placeholder='Enter Address'>Address</label>
         <textarea rows='2' id='address'  className='input-box-text-area' value={address} onChange={(e)=>setAddress(e.target.value)}/>
+        </div>
         <button type='submit' className='submit-btn'>Submit</button>
         <button type='button' className='back-to-login-page' onClick={()=>setLoginPage(true)}>Back to Login</button>
       </form>

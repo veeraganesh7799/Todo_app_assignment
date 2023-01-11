@@ -1,13 +1,8 @@
-.form-container{
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-}
 .signup-container{
     display: flex;
     flex-direction: column;
-    padding: 20px;
     align-items: center;
+    padding: 20px;
     height: 100vh;
     width: 100vw;
 }
@@ -26,7 +21,7 @@
     margin-bottom: 0px;
     color: black;
     margin-top: 10px;
-    font-family: 'Roboto';
+    font-family: sans-serif;
 }
 .input-box-text-area{
     width: 100%;
@@ -55,4 +50,15 @@
     margin-top: 10px;
     font-weight: 600;
     width: 30%;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
